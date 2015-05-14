@@ -8,11 +8,11 @@ Homepage: http://wiki.postgresql.org/wiki/PL/Proxy
 Vcs-Git: git://github.com/markokr/plproxy-dev.git
 Vcs-Browser: https://github.com/markokr/plproxy-dev
 
-Package: postgresql-plproxy-PGVERSION
+Package: postgresql-plproxy-useparts-PGVERSION
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-PGVERSION
-Breaks: postgresql-PGVERSION-plproxy
-Replaces: postgresql-PGVERSION-plproxy
+Breaks: postgresql-PGVERSION-plproxy postgresql-plproxy-PGVERSION
+Replaces: postgresql-PGVERSION-plproxy postgresql-plproxy-PGVERSION
 Description: Database partitioning system
  PL/Proxy is database partitioning system implemented as PL language.
 
