@@ -11,8 +11,8 @@ Vcs-Browser: https://github.com/markokr/plproxy-dev
 Package: postgresql-plproxy-useparts-PGVERSION
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-PGVERSION
-Breaks: postgresql-PGVERSION-plproxy postgresql-plproxy-PGVERSION
-Replaces: postgresql-PGVERSION-plproxy postgresql-plproxy-PGVERSION
+Breaks: postgresql-PGVERSION-plproxy
+Replaces: postgresql-PGVERSION-plproxy
 Description: Database partitioning system
  PL/Proxy is database partitioning system implemented as PL language.
 
